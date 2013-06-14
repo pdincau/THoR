@@ -34,5 +34,9 @@ describe Task do
       FactoryGirl.build(:task, status: "backlog").should be_valid
     end
 
+    xit "is not valid without a consume" do
+      FactoryGirl.build(:task, consume: nil).should_not be_valid
+    end
+
   end
 end
