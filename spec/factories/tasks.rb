@@ -2,7 +2,8 @@
 
 FactoryGirl.define do
   factory :task do
-    name "MyString"
+    name "My Task"
     estimate 1
+    status "backlog"
   end
 end

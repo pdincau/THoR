@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe TasksController do
 
-  let(:valid_attributes) { { "name" => "MyTaskName", "estimate" => "1" } }
+  let(:valid_attributes) { { "name" => "MyTaskName", "estimate" => "1", "status" => "backlog" } }
 
   let(:valid_session) { {} }
 
